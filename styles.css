@@ -1,0 +1,59 @@
+/*General Styles*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+html {
+    background-color: rgba(122, 191, 191, .5);
+}
+body {
+    width: 414px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+}
+header {
+    padding-top: 100px;
+}
+h1, h2, h3, nav a, nav span, figcaption, menu li, #social li, footer {
+    font-family: 'Bebas Neue', cursive;
+}
+p, dd, li, nav, input {
+    font-family: 'Montserrat', sans-serif;
+}
+dt {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+/*Hamburger Menu Styles*/
+a:hover, input:hover {
+    background-color: ; /*ADD COLORS--------------------*/
+    color: ; 
+}
+nav {
+    width: 414px;
+    height: 62px; 
+    background-color: #eb5428;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+nav h2 {
+    visibility: hidden;
+    height: 1px;
+}
+nav ul {
+    max-height: 0;
+    overflow: hidden;
+}
+input:checked ~ ul {
+    max-height: 500px;
+}
+input {
+    display: none;
+}
+nav img {
+    visibility: hidden;
+    height: 1px;
+}
