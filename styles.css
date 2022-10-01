@@ -1,5 +1,8 @@
-/*General Styles*/
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
 html {
     background-color: rgba(122, 191, 191, .5);
 }
@@ -8,29 +11,61 @@ body {
     margin: 0 auto;
     background-color: #f2f2f2;
 }
-header {
-    padding-top: 100px;
-}
+
+/*Typography*/
 h1, h2, h3, nav a, nav span, figcaption, menu li, #social li, footer {
     font-family: 'Bebas Neue', cursive;
 }
-p, dd, li, nav, input {
+p, dt, dd, li, nav, input, ::placeholder {
     font-family: 'Montserrat', sans-serif;
 }
+
+/*Hidden*/
+nav h2, dd figcaption, [href="#home"] figcaption, #details span, aside span, form h3, footer h2, footer h3 {
+    visibility: hidden;
+}
+
+/*General Styles*/
+header {                                    /*NEED????????*/
+    padding-top: 100px;
+}
 dt {
-    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
     font-weight: 700;
 }
 h1 {
     font-size: 40px;
     text-align: center;
 }
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+h3 {
+    font-size: 25px;
+}
+a {
+    text-decoration: none;
+}
+img {
+    width: 100%;
+}
+menu, nav ul, #social ul {
+    list-style: none;
+}
+menu li, menu a, nav a, #social a {   
+    color: #eb5428;
+}
+menu li:hover span, #social a:hover span,
+nav a:hover {
+    background-color: #EB5428;
+    color: white;
+}
+nav a, nav span, figcaption, menu li, #social li, footer {
+    font-size: 20px;
+}
 
 /*Hamburger Menu Styles*/
-a:hover, input:hover {
-    background-color: ; /*ADD COLORS--------------------*/
-    color: ; 
-}
 nav {
     width: 414px;
     height: 62px; 
