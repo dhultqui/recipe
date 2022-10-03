@@ -20,6 +20,9 @@ h1, h2, h3, nav a, nav span, figcaption, menu li, #social li, footer {
 p, dt, dd, li, nav, input, ::placeholder {
     font-family: 'Montserrat', sans-serif;
 }
+nav a, nav span, figcaption, menu li, #social li, footer {
+    font-size: 20px;
+}
 
 /*Hidden*/
 nav h2, dd figcaption, [href="#home"] figcaption, #details span, aside span, form h3, footer h2, footer h3 {
@@ -67,8 +70,11 @@ dt {
 #details dd {
     margin-left: 10px;
 }
-nav a, nav span, figcaption, menu li, #social li, footer {
-    font-size: 20px;
+#ingredients {
+    margin-bottom: -25px;
+}
+#directions {
+    margin-bottom: -15px;
 }
 
 /*Menu & Nav Styles*/
@@ -273,7 +279,7 @@ footer small {
 
     /*General Styles*/
     h1 {
-        margin-top: 210px;
+        margin-top: 200px;
         margin-left: 15px;
         text-align: left;
     }
@@ -292,6 +298,7 @@ footer small {
     }
     #ingredients {
         grid-column: 1/2;
+        margin-bottom: -20px;
     }
     aside {
         display: grid;
@@ -447,6 +454,12 @@ footer small {
     [href="#home"], nav li:last-child {
         height: 120px;
         width: 120px;
+    }
+    [href="#home"] svg {
+        padding-top: 10px;
+    }
+    nav li:last-child figure {
+        padding-top: 10px;
     }
     form {
         position: static;
