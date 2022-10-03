@@ -260,7 +260,7 @@ footer figure {
     padding-bottom: 55px;
     text-align: center;
 }
-footer [src="Taco-cheesington.png"] {
+footer [src="taco-cheesington.png"] {
     display: block;
     width: 50%;
     margin: 0 auto;
@@ -479,7 +479,7 @@ footer small {
         width: 400px;
         margin-left: -70px;
     }
-    footer [src="Taco-cheesington.png"] {
+    footer [src="taco-cheesington.png"] {
         width: 230px;
         margin: 10px;
     }
